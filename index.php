@@ -40,6 +40,7 @@
     <!--Mechanic Styles-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://use.fontawesome.com/ea41b501c2.js"></script>
     
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
@@ -136,21 +137,21 @@
     <section id="shopFeatures" class="row">
         <div class="container">
             <div class="row text-center">
-                <div class="col-sm-3 coreFeature">
+                <div class="col-sm-4 coreFeature">
                     <div class="row m0 coreFeatureInner">
                         <div class="row m0 icon circle"><img src="img/icon/shopping-bag.png" alt=""></div>
                         <h5>nuestros productos</h5>
                         <p>Ofrecemos calidad y acabados de primera.</p>
                     </div>
                 </div>
-                <div class="col-sm-3 coreFeature">
+                <div class="col-sm-4 coreFeature">
                     <div class="row m0 coreFeatureInner">
                         <div class="row m0 icon circle"><img src="img/icon/car2.png" alt=""></div>
                         <h5>entrega rápida</h5>
                         <p>Pedidos terminados en menos de 7 días</p>
                     </div>
                 </div>
-                <div class="col-sm-3 coreFeature">
+                <div class="col-sm-4 coreFeature">
                     <div class="row m0 coreFeatureInner">
                         <div class="row m0 icon circle"><img src="img/icon/cart2.png" alt=""></div>
                         <h5>compra fácil</h5>
@@ -187,8 +188,8 @@
                         <div class="media m0">
                             <div class="media-left icon"><img src="img/icon/shopping-bag2.png" alt=""></div>
                             <div class="media-body texts">
-                                <h4>Vea nuestras</h4>
-                                <h2>Ofertas novedosas</h2>
+                                <h4>conoce nuestras</h4>
+                                <h2>Ofertas</h2>
                             </div>
                         </div>
                     </div>
