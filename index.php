@@ -179,7 +179,7 @@
                         <div class="media m0">
                             <div class="media-left icon"><img src="img/icon/tel24-7_2.png" alt=""></div>
                             <div class="media-body texts">
-                                <h4>Atención de de 8am - 8pm</h4>
+                                <h4>Atención de 8am - 8pm</h4>
                                 <h2>(044) 232377</h2>
                             </div>
                         </div>
@@ -210,8 +210,6 @@
             </div>
         </div>
     </footer>
-    
-    
    
     <!--jQuery, Bootstrap and other vendor JS-->
     
