@@ -1,0 +1,33 @@
+Copiar Template : (bajar codigo html, corregir rutas CSS y JS para que funcione)
+Index,				HECHO
+product2,
+simpleproduct
+Cart,
+checkout
+contact
+
+Mejorar Templates:
+- cambiar nombres a index.php, productos.php, carrodecompra.php contacto.php pagar.php
+- cambiar extensiones a .php en vez de html
+- Limpiar codigo
+- Ordenar con include(PHP)
+
+Codigos PHP
+- Conexion a  la base de datos
+
+- MENU(como index2) > Inicio, Categorias(Submenu igual a MEGAMENU y de ahi envie a products2), contactenos
+- INDEX (Codear toda esa pagina) > codear el slide, circulos, our featured categorites(index3)
+- Product2 (Codear toda esa pagina)
+- simpleproduct (codear toda esa pagina)
+
+- Cart (Codear toda la pagina)
+- ccheckout (Codear toda la pagina)
+contact
+
+
+----- Admin
+- Ordenes tabla
+- Usuarios tabla
+- clientes tabla
+- pedidos tabla
+- reportes graficas
