@@ -53,8 +53,8 @@
     <script src="js/jquery-2.1.3.min.js"></script>
     
     <!--Google Maps-->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    
+    <script type="text/javascript" src="js/contact.js"></script>
+
     <!--Bootstrap JS-->
     <script src="js/bootstrap.min.js"></script>
     

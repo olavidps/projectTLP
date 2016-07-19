@@ -14,7 +14,7 @@
                     <div class="collapse navbar-collapse" id="mainNav2">
                         <ul class="nav navbar-nav">
                             <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Inicio</a>
+                                <a href="index.php">Inicio</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos</a>
@@ -24,7 +24,7 @@
                                     <li><a href="productos.php">Oficina</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html">Contacto</a></li>
+                            <li><a href="contacto.php">Contacto</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -35,9 +35,9 @@
         </div>
         <div class="col-sm-5 menu2">
             <ul class="nav fright">
-                <li><a href="#">Seguimiento</a></li>
-                <li><a href="checkout.html">Pagar</a></li>
-                <li><a href="cart.html"><span class="badge">0</span></a></li>
+                <li><a href="tracking.php">Seguimiento</a></li>
+                <li><a href="pagar.php">Pagar</a></li>
+                <li><a href="carro.php"><span class="badge">0</span></a></li>
             </ul>
         </div>
     </div>
