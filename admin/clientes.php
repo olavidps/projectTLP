@@ -49,15 +49,32 @@
 		</div><!--/.row-->	
 
 		<!-- Modal -->
-		<div class="modal fade" id="modalNuevo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal fade" id="modalNuevo" tabindex="-1" role="dialog" aria-labelledby="modalNuevo">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">
 		      <div class="modal-header">
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title" id="myModalLabel">Nuevo cliente</h4>
+		        <h4 class="modal-title" id="modaNuevo">Nuevo cliente</h4>
 		      </div>
 		      <div class="modal-body">
-		        ...
+		        <form>
+				  <div class="form-group">
+				    <label for="input1">Apellidos</label>
+				    <input class="form-control" id="input1" placeholder="Apellidos">
+				  </div>
+				  <div class="form-group">
+				    <label for="input2">Nombres</label>
+				    <input type="password" class="form-control" id="input2" placeholder="Nombres">
+				  </div>
+				  <div class="form-group">
+				    <label for="input3">Dirección</label>
+				    <input type="password" class="form-control" id="input3" placeholder="Dirección">
+				  </div>
+				  <div class="form-group">
+				    <label for="input4">Telefono</label>
+				    <input type="password" class="form-control" id="input4" placeholder="Teléfono">
+				  </div>
+				</form>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
