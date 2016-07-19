@@ -23,7 +23,7 @@
             <div class="container">
                 <h4 class="fleft">productos</h4>
                 <ul class="breadcrumb fright">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li class="active">Productos</li>
                 </ul>
             </div>

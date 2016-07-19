@@ -15,15 +15,14 @@ Mejorar Templates:
 Codigos PHP
 - Conexion a  la base de datos
 
-- MENU(como index2) > Inicio, Categorias(Submenu igual a MEGAMENU y de ahi envie a products2), contactenos
-- INDEX (Codear toda esa pagina) > codear el slide, circulos, our featured categorites(index3)
-- Product2 (Codear toda esa pagina)
-- simpleproduct (codear toda esa pagina)
+- MENU(como index2) > Inicio, Categorias(Submenu igual a MEGAMENU y de ahi envie a products2), contactenos	DONE
+- INDEX (Codear toda esa pagina) > codear el slide, circulos, our featured categorites(index3)			DONE
+- Productos (Codear toda esa pagina)										DONE										
+- producto(codear toda esa pagina)										
 
 - Cart (Codear toda la pagina)
 - ccheckout (Codear toda la pagina)
-contact
-
+- contact
 
 ----- Admin
 - Ordenes tabla

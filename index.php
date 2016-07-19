@@ -123,7 +123,7 @@
                 <div class="row">
                     <div class="fleft">&copy; 2016 <a href="index.php">Proyecto TLP</a> Todos los derechos reservados.</div>
                     <ul class="nav nav-pills fright">
-                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="2.php">Inicio</a></li>
                         <li><a href="productos.php">Productos</a></li>
                         <li><a href="contacto.php">Contacto</a></li>
                     </ul>

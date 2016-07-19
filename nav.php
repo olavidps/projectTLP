@@ -31,7 +31,7 @@
             </nav>
         </div>
         <div class="col-sm-2 logo text-center">
-            <a href="index2.html"><img src="img/icon/logo2.png" alt=""></a>
+            <a href="index.php"><img src="img/icon/logo2.png" alt=""></a>
         </div>
         <div class="col-sm-5 menu2">
             <ul class="nav fright">
