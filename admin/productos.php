@@ -58,22 +58,18 @@
 		        <h4 class="modal-title" id="modaNuevo">Nuevo producto</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form action="ingresar_producto.php" method="POST" enctype="multipart/form-data" name="inscripcion">
-				  <div class="form-group">
-				    <label for="input1">Codigo de producto</label>
-				    <input class="form-control" id="input1" placeholder="Codigo">
-				  </div>
+		        <form action="ingresar_producto.php" method="POST" enctype="multipart/form-data" name="inscripcion">				  
 				  <div class="form-group">
 				    <label for="input2">Nombre</label>
-				    <input type="form-control" class="form-control" id="input2" placeholder="Nombre">
+				    <input type="form-control" class="form-control" id="input2" placeholder="Nombre" name="productonombre">
 				  </div>
 				  <div class="form-group">
 				    <label for="input3">Stock</label>
-				    <input type="form-control" class="form-control" id="input3" placeholder="Stock">
+				    <input type="form-control" class="form-control" id="input3" placeholder="Stock" name="productostock">
 				  </div>
 				  <div class="form-group">
 				    <label for="input4">Detalle</label>
-				    <input type="form-control" class="form-control" id="input4" placeholder="Detalle">
+				    <input type="form-control" class="form-control" id="input4" placeholder="Detalle" name="productodetalles">
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputFile">Imagen</label>

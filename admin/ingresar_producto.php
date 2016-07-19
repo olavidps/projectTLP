@@ -1,5 +1,22 @@
 <?php
-	include("conexion.php");
+	include("conexion.php");    
+    $nombreproducto = $_POST['productonombre'];
+    $stockproducto = $_POST['productostock'];
+    $detallesproducto = $_POST['productodetalles'];   
+
+    $query="INSERT INTO producto(nombre, stock, detalles) values('$nombreproducto','$stockproducto','$detallesproducto')";
+    $resultado=$conexion->query($query);
+    if($resultado){
+        echo "se inserto";
+    }
+    else
+    {
+        echo "No se inserto";
+    }
+
+
+
+
 	$carpetaDestino="../recursos/";
  
     # si hay algun archivo que subir
@@ -34,6 +51,6 @@
     }else{
         echo "<br>No se ha subido ninguna imagen";
     }
-    ?>
 
+    ?>
 ?>

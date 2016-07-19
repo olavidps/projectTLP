@@ -1,12 +1,11 @@
 <?php
 
 	include("conexion.php");
-	$apellidocliente = $_POST['clienteapellido'];
-	$nombrecliente = $_POST['clientenombre'];
-	$direccioncliente = $_POST['clientedireccion'];
-	$telefonocliente = $_POST['clientetelefono'];	
+	$apellidoempleado = $_POST['usuarioapellido'];
+	$nombreempleado = $_POST['usuarionombre'];	
 
-	$query="INSERT INTO empleado(nombre, apellido, direccion, telefono) values('$nombrecliente','$apellidocliente','$direccioncliente','$telefonocliente')";
+	$query="INSERT INTO empleado(nombre, apellido) values('$nombreempleado','$apellidoempleado')";
+	$resultado=$conexion->query($query);
 
 
 ?>

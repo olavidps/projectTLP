@@ -57,7 +57,7 @@
 		        <h4 class="modal-title" id="modaNuevo">Nuevo Empleado</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form>				  
+		        <form action="ingresar_empleado.php" method="POST">				  
 				  <div class="form-group">
 				    <label for="input2">Nombre</label>
 				    <input type="form-control" class="form-control" id="input2" placeholder="Nombres" name="usuarionombre">
@@ -70,12 +70,13 @@
 				    <label for="input4">Fecha de Ingreso</label>
 				    <input type="form-control" class="form-control" id="input4" placeholder="Fecha de Ingreso">
 				  </div>				  
-				</form>
+				
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-		        <button type="button" class="btn btn-primary">Guardar</button>
+		        <button type="sumbit" class="btn btn-primary">Guardar</button>
 		      </div>
+		      </form>
 		    </div>
 		  </div>
 		</div>
