@@ -16,13 +16,8 @@
                             <li>
                                 <a href="index.php">Inicio</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Productos</a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="productos.php">Muebles de sala y comedor</a></li>
-                                    <li><a href="productos.php">Muebles de Escritorio</a></li>
-                                    <li><a href="productos.php">Oficina</a></li>
-                                </ul>
+                            <li>
+                                <a href="productos.php">Productos</a>
                             </li>
                             <li><a href="contacto.php">Contacto</a></li>
                         </ul>

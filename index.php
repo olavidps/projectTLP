@@ -25,8 +25,8 @@
                     <img src="img/slider/1.png" alt="">
                     <div class="text_lines row m0">
                         <div class="container p0">
-                            <h3>Slider 1</h3>
-                            <h2>Descripción del slider1</h2>
+                            <h3>Calidad que te mereces</h3>
+                            <h2>Productos hechos con excelentes materiales</h2>
                             <a href="#"><h4>Ver más</h4></a>
                         </div>
                     </div> <!--Text Lines-->
@@ -35,8 +35,8 @@
                     <img src="img/slider/2.png" alt="">
                     <div class="text_lines row m0">
                         <div class="container p0">
-                            <h3>Slider 2</h3>
-                            <h2>Descripción del slider2</h2>
+                            <h3>Acabados únicos</h3>
+                            <h2>Visita la sección productos y mejora tu hogar</h2>
                             <a href="#"><h4>Ver más</h4></a>
                         </div>
                     </div> <!--Text Lines-->
@@ -45,8 +45,8 @@
                     <img src="img/slider/3.png" alt="">
                     <div class="text_lines row m0">
                         <div class="container p0">
-                            <h3>Slider 3</h3>
-                            <h2>Descripción del slider3</h2>
+                            <h3>Muebles accesibles de Calidad</h3>
+                            <h2>Precios con los que ya no hay excusas</h2>
                             <a href="#"><h4>Ver más</h4></a>
                         </div>
                     </div> <!--Text Lines-->
@@ -91,8 +91,8 @@
                         <div class="media">
                             <div class="media-left icon"><img src="img/icon/car3.png" alt=""></div>
                             <div class="media-body texts">
-                                <h4>Envío nacional</h4>
-                                <h2>24/7</h2>
+                                <h4>Entrega rápida</h4>
+                                <h2>Visitanos</h2>
                             </div>
                         </div>
                     </div>

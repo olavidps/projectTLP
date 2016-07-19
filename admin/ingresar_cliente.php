@@ -1,5 +1,4 @@
 <?php
-
 	include("conexion.php");
 	$apellidocliente = $_POST['clienteapellido'];
 	$nombrecliente = $_POST['clientenombre'];
@@ -16,5 +15,4 @@
 	{
 		echo "No se inserto";
 	} 
-
 ?>

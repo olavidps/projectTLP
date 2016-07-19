@@ -58,7 +58,7 @@
 		        <h4 class="modal-title" id="modaNuevo">Nuevo producto</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form>
+		        <form action="ingresar_producto.php" method="POST" enctype="multipart/form-data" name="inscripcion">
 				  <div class="form-group">
 				    <label for="input1">Codigo de producto</label>
 				    <input class="form-control" id="input1" placeholder="Codigo">
@@ -77,14 +77,14 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputFile">Imagen</label>
-				    <input type="file" id="exampleInputFile">				    
+				    <input type="file" name="archivo[]" id="exampleInputFile" multiple="multiple">
 				  </div>
-				</form>
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-		        <button type="button" class="btn btn-primary">Guardar</button>
+		        <button type="submit" class="btn btn-primary">Guardar</button>
 		      </div>
+		      </form>
 		    </div>
 		  </div>
 		</div>
