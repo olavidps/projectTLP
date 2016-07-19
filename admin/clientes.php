@@ -57,29 +57,30 @@
 		        <h4 class="modal-title" id="modaNuevo">Nuevo cliente</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form>
+		        <form action="ingresar_cliente.php" method="POST">
 				  <div class="form-group">
 				    <label for="input1">Apellidos</label>
-				    <input class="form-control" id="input1" placeholder="Apellidos">
+				    <input class="form-control" id="input1" placeholder="Apellidos" name="clienteapellido">
 				  </div>
 				  <div class="form-group">
 				    <label for="input2">Nombres</label>
-				    <input type="password" class="form-control" id="input2" placeholder="Nombres">
+				    <input type="form-control" class="form-control" id="input2" placeholder="Nombres" name="clientenombre">
 				  </div>
 				  <div class="form-group">
 				    <label for="input3">Dirección</label>
-				    <input type="password" class="form-control" id="input3" placeholder="Dirección">
+				    <input type="form-control" class="form-control" id="input3" placeholder="Dirección" name="clientedireccion">
 				  </div>
 				  <div class="form-group">
 				    <label for="input4">Telefono</label>
-				    <input type="password" class="form-control" id="input4" placeholder="Teléfono">
+				    <input type="form-control" class="form-control" id="input4" placeholder="Teléfono" name="clientetelefono">
 				  </div>
-				</form>
+				
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-		        <button type="button" class="btn btn-primary">Guardar</button>
+		        <button type="sumbit" class="btn btn-primary">Guardar</button>
 		      </div>
+		      </form>
 		    </div>
 		  </div>
 		</div>

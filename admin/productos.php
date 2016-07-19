@@ -50,7 +50,44 @@
 			</div>
 		</div><!--/.row-->	
 		
-		
+		<div class="modal fade" id="modalNuevo" tabindex="-1" role="dialog" aria-labelledby="modalNuevo">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="modaNuevo">Nuevo producto</h4>
+		      </div>
+		      <div class="modal-body">
+		        <form>
+				  <div class="form-group">
+				    <label for="input1">Codigo de producto</label>
+				    <input class="form-control" id="input1" placeholder="Codigo">
+				  </div>
+				  <div class="form-group">
+				    <label for="input2">Nombre</label>
+				    <input type="password" class="form-control" id="input2" placeholder="Nombre">
+				  </div>
+				  <div class="form-group">
+				    <label for="input3">Stock</label>
+				    <input type="password" class="form-control" id="input3" placeholder="Stock">
+				  </div>
+				  <div class="form-group">
+				    <label for="input4">Detalle</label>
+				    <input type="password" class="form-control" id="input4" placeholder="Detalle">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputFile">Imagen</label>
+				    <input type="file" id="exampleInputFile">				    
+				  </div>
+				</form>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		        <button type="button" class="btn btn-primary">Guardar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 		
 	</div><!--/.main-->
 	<?php 

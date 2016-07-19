@@ -5,7 +5,7 @@
 		echo "Conexion Exitosa";
 	}
 	else{
-		echo "Conexion no Exitosa"
+		echo "Conexion no Exitosa";
 	}
 
 ?>
