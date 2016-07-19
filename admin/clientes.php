@@ -57,32 +57,11 @@
 		        <h4 class="modal-title" id="myModalLabel">Nuevo cliente</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form>
-				  <div class="form-group">
-				    <label for="input1">Dni</label>
-				    <input class="form-control" id="input1" placeholder="Dni">
-				  </div>
-				  <div class="form-group">
-				    <label for="input2">Apellidos</label>
-				    <input type="password" class="form-control" id="input2" placeholder="Apellidos">
-				  </div>
-				  <div class="form-group">
-				    <label for="input3">Nombres</label>
-				    <input type="password" class="form-control" id="input3" placeholder="Nombres">
-				  </div>
-				  <div class="form-group">
-				    <label for="input4">Dirección</label>
-				    <input type="password" class="form-control" id="input4" placeholder="Dirección">
-				  </div>
-				  <div class="form-group">
-				    <label for="input5">Teléfono</label>
-				    <input type="password" class="form-control" id="input5" placeholder="Teléfono">
-				  </div>
-				</form>
+		        ...
 		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-		        <button type="button" class="btn btn-primary">Guardar datos</button>
+		        <button type="button" class="btn btn-primary">Guardar</button>
 		      </div>
 		    </div>
 		  </div>
