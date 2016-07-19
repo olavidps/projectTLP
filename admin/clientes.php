@@ -74,8 +74,6 @@
 				    <label for="input4">Telefono</label>
 				    <input type="form-control" class="form-control" id="input4" placeholder="Teléfono" name="clientetelefono">
 				  </div>
-				
-		      </div>
 		      <div class="modal-footer">
 		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 		        <button type="sumbit" class="btn btn-primary">Guardar</button>
