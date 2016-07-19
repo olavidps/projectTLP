@@ -7,8 +7,8 @@
     $query="INSERT INTO producto(nombre, stock, detalles) values('$nombreproducto','$stockproducto','$detallesproducto')";
     $resultado=$conexion->query($query);
     
-    $ultimo_id = $conexion->insert_id;
-    echo $ultimo_id;
+    /*$ultimo_id = $conexion->insert_id;
+    echo "hola"+$ultimo_id;*/
 
 
 	$carpetaDestino="../recursos/";
