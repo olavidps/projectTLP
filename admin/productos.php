@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Productos</title>
 	<?php 
-        require('include/header.php')
+        require('include/header.php');
+        require('conexion.php');
     ?>	
 </head>
 

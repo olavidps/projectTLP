@@ -8,8 +8,6 @@
     $resultado=$conexion->query($query);
     
     $ultimo_id = $conexion->insert_id;
-    
-
 
 	$carpetaDestino="../recursos/";
  
@@ -31,24 +29,22 @@
                     # movemos el archivo
                     if(@move_uploaded_file($origen, $destino))
                     {
-                        echo "<br>".$_FILES["archivo"]["name"][$i]." movido correctamente";
-                        //INSERTAR ACA
+                        $ruta=$_FILES["archivo"]["name"][$i];
+                        $query="INSERT INTO imagen(ruta, codproducto) values('$ruta','$ultimo_id')";
+                        $resultado=$conexion->query($query);
+
                     }else{
-                        echo "<br>No se ha podido mover el archivo: ".$_FILES["archivo"]["name"][$i];
+                        //echo "<br>No se ha podido mover el archivo: ".$_FILES["archivo"]["name"][$i];
                     }
                 }else{
-                    echo "<br>No se ha podido crear la carpeta: up/".$user;
+                    //echo "<br>No se ha podido crear la carpeta: up/".$user;
                 }
             }else{
-                echo "<br>".$_FILES["archivo"]["name"][$i]." - NO es imagen jpg";
+                //echo "<br>".$_FILES["archivo"]["name"][$i]." - NO es imagen jpg";
             }
         }
+        header("Location: productos.php");
     }else{
         echo "<br>No se ha subido ninguna imagen";
-    }
-    echo "hola"+$ultimo_id;
-    $ruta=$_FILES["archivo"]["name"][$i];
-
-    $query="INSERT INTO imagen(ruta, codproducto) values('$ruta','$ultimo_id')";
-    $resultado=$conexion->query($query);
+    }    
 ?>
