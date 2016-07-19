@@ -77,20 +77,20 @@
                                             <li><a href="productos.php">Oficina</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contacto</a></li>
+                                    <li><a href="contacto.php">Contacto</a></li>
                                 </ul>
                             </div><!-- /.navbar-collapse -->
                         </div><!-- /.container-fluid -->
                     </nav>
                 </div>
                 <div class="col-sm-2 logo text-center">
-                    <a href="index2.html"><img src="img/icon/logo2.png" alt=""></a>
+                    <a href="index.php"><img src="img/icon/logo2.png" alt=""></a>
                 </div>
                 <div class="col-sm-5 menu2">
                     <ul class="nav fright">
                         <li><a href="#">Seguimiento</a></li>
-                        <li><a href="checkout.html">Pagar</a></li>
-                        <li><a href="cart.html"><span class="badge">0</span></a></li>
+                        <li><a href="pagar.php">Pagar</a></li>
+                        <li><a href="carro.php"><span class="badge">0</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -103,7 +103,7 @@
             <div class="container">
                 <h4 class="fleft">productos</h4>
                 <ul class="breadcrumb fright">
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.php">Inicio</a></li>
                     <li class="active">Productos</li>
                 </ul>
             </div>
