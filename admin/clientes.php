@@ -28,7 +28,7 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						Clientes
-						<button type="button" class="btn btn-success pull-right">Nuevo Cliente</button>
+						<button type="button" class="btn btn-success pull-right"  data-toggle="modal" data-target="#modalNuevo">Nuevo cliente</button>
 					</div>
 					<div class="panel-body">
 						<table data-toggle="table" data-url="tables/data1.json"  data-show-refresh="true" data-show-toggle="true" data-show-columns="true" data-search="true" data-select-item-name="toolbar1" data-pagination="true" data-sort-name="name" data-sort-order="desc">
@@ -47,6 +47,26 @@
 				</div>
 			</div>
 		</div><!--/.row-->	
+
+		<!-- Modal -->
+		<div class="modal fade" id="modalNuevo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Nuevo cliente</h4>
+		      </div>
+		      <div class="modal-body">
+		        ...
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+		        <button type="button" class="btn btn-primary">Guardar</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 	<?php 
         require('include/footer.php')
     ?>	
