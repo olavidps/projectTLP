@@ -57,22 +57,18 @@
 		        <h4 class="modal-title" id="modaNuevo">Nuevo Empleado</h4>
 		      </div>
 		      <div class="modal-body">
-		        <form>
-				  <div class="form-group">
-				    <label for="input1">Codigo de Empleado</label>
-				    <input class="form-control" id="input1" placeholder="Codigo">
-				  </div>
+		        <form>				  
 				  <div class="form-group">
 				    <label for="input2">Nombre</label>
-				    <input type="password" class="form-control" id="input2" placeholder="Nombres">
+				    <input type="form-control" class="form-control" id="input2" placeholder="Nombres" name="usuarionombre">
 				  </div>
 				  <div class="form-group">
 				    <label for="input3">Apellido</label>
-				    <input type="password" class="form-control" id="input3" placeholder="Apellido">
+				    <input type="form-control" class="form-control" id="input3" placeholder="Apellido" name="usuarioapellido">
 				  </div>
 				  <div class="form-group">
 				    <label for="input4">Fecha de Ingreso</label>
-				    <input type="password" class="form-control" id="input4" placeholder="Fecha de Ingreso">
+				    <input type="form-control" class="form-control" id="input4" placeholder="Fecha de Ingreso">
 				  </div>				  
 				</form>
 		      </div>

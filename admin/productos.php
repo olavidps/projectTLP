@@ -65,15 +65,15 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="input2">Nombre</label>
-				    <input type="password" class="form-control" id="input2" placeholder="Nombre">
+				    <input type="form-control" class="form-control" id="input2" placeholder="Nombre">
 				  </div>
 				  <div class="form-group">
 				    <label for="input3">Stock</label>
-				    <input type="password" class="form-control" id="input3" placeholder="Stock">
+				    <input type="form-control" class="form-control" id="input3" placeholder="Stock">
 				  </div>
 				  <div class="form-group">
 				    <label for="input4">Detalle</label>
-				    <input type="password" class="form-control" id="input4" placeholder="Detalle">
+				    <input type="form-control" class="form-control" id="input4" placeholder="Detalle">
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputFile">Imagen</label>

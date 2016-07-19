@@ -8,13 +8,13 @@
 
 	$query="INSERT INTO cliente(nombre, apellido, direccion, telefono) values('$nombrecliente','$apellidocliente','$direccioncliente','$telefonocliente')";
 
-	$resultado=$conexion->query($query);
+	/*$resultado=$conexion->query($query);
 	if($resultado){
 		echo "se inserto";
 	}
 	else
 	{
 		echo "No se inserto";
-	} 
+	} */
 
 ?>
