@@ -6,15 +6,9 @@
 
     $query="INSERT INTO producto(nombre, stock, detalles) values('$nombreproducto','$stockproducto','$detallesproducto')";
     $resultado=$conexion->query($query);
-    if($resultado){
-        echo "se inserto";
-    }
-    else
-    {
-        echo "No se inserto";
-    }
-
-
+    
+    $ultimo_id = $conexion->insert_id;
+    echo $ultimo_id;
 
 
 	$carpetaDestino="../recursos/";
@@ -38,6 +32,7 @@
                     if(@move_uploaded_file($origen, $destino))
                     {
                         echo "<br>".$_FILES["archivo"]["name"][$i]." movido correctamente";
+                        //INSERTAR ACA
                     }else{
                         echo "<br>No se ha podido mover el archivo: ".$_FILES["archivo"]["name"][$i];
                     }
@@ -51,11 +46,4 @@
     }else{
         echo "<br>No se ha subido ninguna imagen";
     }
-
-    $query="SELECT codproducto FROM producto ORDER BY codproducto DESC LIMIT 1";
-    $resultado=$conexion->query($query);
-    $var = $resultado;
-
-    echo "string"+$var;
-    ?>
 ?>
