@@ -52,5 +52,10 @@
         echo "<br>No se ha subido ninguna imagen";
     }
 
+    $query="SELECT codproducto FROM producto ORDER BY codproducto DESC LIMIT 1";
+    $resultado=$conexion->query($query);
+    $var = $resultado;
+
+    echo "string"+$var;
     ?>
 ?>
