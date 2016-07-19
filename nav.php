@@ -35,7 +35,7 @@
         </div>
         <div class="col-sm-5 menu2">
             <ul class="nav fright">
-                <li><a href="tracking.php">Seguimiento</a></li>
+                <li><a href="#tracking.php">Seguimiento</a></li>
                 <li><a href="pagar.php">Pagar</a></li>
                 <li><a href="carro.php"><span class="badge">0</span></a></li>
             </ul>
