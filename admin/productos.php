@@ -73,6 +73,10 @@
 				    <input type="form-control" class="form-control" id="input4" placeholder="Detalle" name="productodetalles">
 				  </div>
 				  <div class="form-group">
+				    <label for="input5">Precio</label>
+				    <input type="form-control" class="form-control" id="input5" placeholder="Precio" name="productoprecio">
+				  </div>
+				  <div class="form-group">
 				    <label for="exampleInputFile">Imagen</label>
 				    <input type="file" name="archivo[]" id="exampleInputFile" multiple="multiple">
 				  </div>

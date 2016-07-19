@@ -2,9 +2,10 @@
 	include("conexion.php");    
     $nombreproducto = $_POST['productonombre'];
     $stockproducto = $_POST['productostock'];
-    $detallesproducto = $_POST['productodetalles'];   
+    $detallesproducto = $_POST['productodetalles']; 
+    $productoprecio = $_POST['productoprecio'];  
 
-    $query="INSERT INTO producto(nombre, stock, detalles) values('$nombreproducto','$stockproducto','$detallesproducto')";
+    $query="INSERT INTO producto(nombre, stock, detalles, precio) values('$nombreproducto','$stockproducto','$detallesproducto', '$productoprecio')";
     $resultado=$conexion->query($query);
     
     $ultimo_id = $conexion->insert_id;
