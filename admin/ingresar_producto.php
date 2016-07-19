@@ -7,8 +7,8 @@
     $query="INSERT INTO producto(nombre, stock, detalles) values('$nombreproducto','$stockproducto','$detallesproducto')";
     $resultado=$conexion->query($query);
     
-    /*$ultimo_id = $conexion->insert_id;
-    echo "hola"+$ultimo_id;*/
+    $ultimo_id = $conexion->insert_id;
+    
 
 
 	$carpetaDestino="../recursos/";
@@ -46,4 +46,9 @@
     }else{
         echo "<br>No se ha subido ninguna imagen";
     }
+    echo "hola"+$ultimo_id;
+    $ruta=$_FILES["archivo"]["name"][$i];
+
+    $query="INSERT INTO imagen(ruta, codproducto) values('$ruta','$ultimo_id')";
+    $resultado=$conexion->query($query);
 ?>
